@@ -48,7 +48,7 @@ ul{
 .about,.about-skills,.gallery,.about-education,.w3layoutsbooking{padding:3em 0;}
 /*-- header styling starts here --*/
 .agileits_main{
-	background:url(../images/b1.jpg);
+	background:url(../images/jimmy.jpg);
     background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -870,7 +870,7 @@ span.circles-text {
 }
 
 .w3layouts_gallery_grid {
-	padding: 0;
+	padding: 0.5 em;
 }
 
 .nav-tabs>li.active>a,
@@ -1160,9 +1160,15 @@ background:#2980b9;
 .phone{flex:1; -webkit-box-flex:1;}
 .address {flex:1; -webkit-box-flex:1;
 }
-.newsletter{flex:1; -webkit-box-flex:1;}
+.newsletter{
+	flex:1; 
+	-webkit-box-flex:1;
+	width: 15%;}
 .wechat {
-	max-width: 20% !important;
+	max-width: 30% !important;
+}
+.ins {
+	width: 20%;
 }
 .email{flex:1; -webkit-box-flex:1;}
 .info{color:#fff;
